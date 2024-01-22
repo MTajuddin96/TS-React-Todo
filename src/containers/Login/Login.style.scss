@@ -1,0 +1,47 @@
+@import "../../style/fonts";
+
+.whole {
+  display: flex;
+  justify-content: space-between;
+  height: 100vh;
+  .whole_left {
+    background: #6fb6a2;
+    // background: url("https://topica.asia/uploads/images/shutterstock_227863141.jpg")  no-repeat  ;
+    // background-size: cover;
+    width: 65%;
+    // padding: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .whole_right {
+    display: flex;
+    margin-top: 5%;
+    // justify-content: center;
+    // align-items: center;
+    flex-direction: column;
+    width: 35%;
+    padding-left: 2%;
+  }
+}
+
+.loginForm {
+  display: flex;
+  justify-content: center;
+  // align-items: center;
+  flex-direction: column;
+  width: 60%;
+  height: 320px;
+  padding: 36px;
+  box-shadow: 0 0 100px rgba(0, 0, 0, 0.08);
+  font-family: $sourcesans;
+  padding: 0px 20px !important;
+}
+
+.forgotPassword {
+  text-decoration: "underline";
+  cursor: "pointer";
+  margin-top: 12;
+  width: "100%";
+  text-align: "right";
+}

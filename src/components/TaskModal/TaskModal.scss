@@ -1,0 +1,20 @@
+.todo_modal {
+  .ant-modal-header,
+  .ant-modal-content {
+    border-radius: 8px !important;
+  }
+  @media (max-width: 650px) {
+    height: 50vh !important;
+    top: 0px !important;
+    .ant-modal-body {
+      height: 50vh;
+      overflow: auto;
+    }
+  }
+}
+.todo_date_container {
+  display: flex;
+  @media (max-width: 650px) {
+    display: block;
+  }
+}

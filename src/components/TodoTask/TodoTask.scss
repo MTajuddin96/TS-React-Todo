@@ -1,0 +1,65 @@
+.todo_task {
+  background: #ebf2ef;
+  padding: 16px;
+  margin: 8px 0px;
+  min-height: 80px;
+  height: 100%;
+  max-height: 95px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #666;
+  @media (max-width: 1250px) {
+    height: 20%;
+  }
+  &:hover {
+    border: 1px solid #50e3a4;
+    color: #1da57a;
+  }
+  p {
+    margin: 0px;
+  }
+  .decription_container {
+    width: 88%;
+    @media (max-width: 1250px) {
+      width: 79%;
+    }
+  }
+  .todo_description {
+    white-space: nowrap;
+    max-width: 80%;
+    font-size: 1.2em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #3a9778;
+    font-size: 16px;
+    font-weight: bold;
+  }
+}
+.todo_priority {
+  display: flex;
+  align-items: center;
+  p {
+    font-weight: bold;
+  }
+  .priority_icon {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-right: 4px;
+  }
+}
+
+.todo_deadline {
+  font-size: 14px;
+}
+.todo_meeting{
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  p{
+    margin-left: 4px;
+  }
+}
